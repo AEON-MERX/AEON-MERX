@@ -14,26 +14,23 @@
 <img class="img-fluid" src="aeonlogo.png" width="7%"> 
 <form id="form_id" method="post" name="myform">
 <label>User Name :</label>
-<input type="text" name="username" id="username"/>
+<input type="text" name="usuario" id="usuario"/>
 <label>Password :</label>
-<input type="password" name="password" id="password"/>
-<input type="button" value="Login" id="submit" onclick="validate()"/>
+<input type="password" name="contraseña" id="contraseña"/>
+<input type="button" value="login" id="enviar" onclick="validar()"/>
 </form>
 
 </div>
 </div>
 <script>
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-if ( username == "Marta Sanchez" && password == "6f984948ca463b081bf0f0e6d0" ){
-alert ("Login successfully");
-window.location = "cursos.html"; // Redirecting to other page.
-return false;
+function validar(){
+var usuario = document.getElementById("usuario").value;
+var contraseña = document.getElementById("contraseña").value;
+if ( usuario == "AeonMerx" && contraseña == "HectorLavoe" ){
+window.location = "cursos.html"; 
 }
 else{
 alert("La contraseña es incorrecta");
-
 }
 }
 </script>
