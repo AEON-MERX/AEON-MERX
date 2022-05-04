@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: blueviolet ;
+}
+*{
+    text-align: center;
+}
+form{
+    background-color: gray;
+    height: 100%
+}
