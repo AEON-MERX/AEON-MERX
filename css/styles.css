@@ -11514,7 +11514,7 @@ html {
 }
 @media (max-width: 600px) {
   #responsiva1 {
-    height="66%" ;
+    height="300px" !important ;
   }
 }
 
