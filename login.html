@@ -13,9 +13,8 @@
 <h2>ACCEDE A NEUSTROS CURSOS</h2>
 <img class="img-fluid" src="aeonlogo.png" width="7%"> 
 <form id="form_id" method="post" name="myform">
-<label>User Name :</label>
-<input type="text" name="usuario" id="usuario"/>
-<label>Password :</label>
+<label>USUARIO</label>
+<label>Escribe el nombre del curso que adquiriste</label>
 <input type="password" name="contraseña" id="contraseña"/>
 <input type="button" value="login" id="enviar" onclick="validar()"/>
 </form>
@@ -24,14 +23,15 @@
 </div>
 <script>
 function validar(){
-var usuario = document.getElementById("usuario").value;
-var contraseña = document.getElementById("contraseña").value;
-if ( usuario == "AeonMerx" && contraseña == "CursoDerivadas" ){
+var cursos = document.getElementById("contraseña").value;
+if ( cursos == "Derivadas" ){
 window.location = "https://aeon-merx.github.io/AEON-MERX/bgzdbndgljblnjdzgnlbjnldg.pdf"; 
 }
   
-else{
-alert("La contraseña es incorrecta");
+else if( cursos == "Programación" ){
+window.location = "https://aeon-merx.github.io/AEON-MERX/"; 
+}
+alert("Escribe correctamente el nombre del curso que deseas");
 }
 }
 </script>
