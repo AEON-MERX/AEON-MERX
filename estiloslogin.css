@@ -29,4 +29,7 @@ a{
   a {
     color: white !important ;
   }
+input{
+    color: orangered !important;
+}
 }
