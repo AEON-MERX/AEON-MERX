@@ -11512,8 +11512,4 @@ html {
     width: 25%;
   }
 }
-@media (max-width: 600px) {
-  #responsiva1 {
-    width: 200%;
-  }
-}
+
