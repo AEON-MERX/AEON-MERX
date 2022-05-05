@@ -24,3 +24,9 @@ button{
 a{
     font-size: 50px !important ;
 }
+
+@media (max-width: 600px) {
+  a {
+    color: white !important ;
+  }
+}
