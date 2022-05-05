@@ -9,3 +9,7 @@ form{
     background-color: gray;
     height: 100%
 }
+input{
+    width: 100%;
+    height: 300px ;
+}
