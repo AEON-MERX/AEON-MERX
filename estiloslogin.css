@@ -21,3 +21,6 @@ input{
 button{
     width: 100% ;
 }
+a{
+    font-size: 50px !important ;
+}
