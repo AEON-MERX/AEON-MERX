@@ -4,7 +4,7 @@ function validar(){
     window.location = "https://aeon-merx.github.io/AEON-MERX/bgzdbndgljblnjdzgnlbjnldg.pdf"; 
     }
       
-    else if( cursos == "Programación" ){
+    else if( cursos == "Programacion" || cursos=="programacion" || cursos=="PROGRAMACION" || cursos=="Programación"){
     window.location = "https://aeon-merx.github.io/AEON-MERX/"; 
     }
     else
