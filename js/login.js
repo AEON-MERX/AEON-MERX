@@ -5,7 +5,7 @@ function validar(){
     }
       
     else if( cursos == "Programacion" || cursos=="programacion" || cursos=="PROGRAMACION" || cursos=="Programación"){
-    window.location = "https://aeon-merx.github.io/AEON-MERX/libro_thoth_español.pdf"; 
+    window.location = "https://aeon-merx.github.io/AEON-MERX/libro_thoth_espanol.pdf"; 
     }
     else
     alert("Escribe correctamente el nombre del curso que deseas");
